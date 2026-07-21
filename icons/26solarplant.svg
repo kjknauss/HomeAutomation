@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="metal-solar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="cell-solar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A6E8C"/>
+      <stop offset="100%" stop-color="#0E2A3A"/>
+    </linearGradient>
+    <radialGradient id="patina-solar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-solar" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+    <filter id="drop-solar" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0.6" stdDeviation="0.6" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="16" cy="30.4" rx="12" ry="0.9" fill="#000" opacity="0.17" filter="url(#soft-solar)"/>
+
+  <g filter="url(#drop-solar)">
+    <polygon points="4.00,6.00 27.00,4.50 29.00,26.50 3.00,28.00" fill="url(#metal-solar)" stroke="#4A3410" stroke-width="0.5"/>
+
+    <circle cx="5.2" cy="6.9" r="0.75" fill="#5C3F14"/>
+    <circle cx="5.0" cy="6.7" r="0.24" fill="#F0D080" opacity="0.7"/>
+    <circle cx="26.6" cy="5.5" r="0.75" fill="#5C3F14"/>
+    <circle cx="26.4" cy="5.3" r="0.24" fill="#F0D080" opacity="0.7"/>
+    <circle cx="4.2" cy="27.1" r="0.75" fill="#5C3F14"/>
+    <circle cx="4.0" cy="26.9" r="0.24" fill="#F0D080" opacity="0.7"/>
+    <circle cx="28.2" cy="25.6" r="0.75" fill="#5C3F14"/>
+    <circle cx="28.0" cy="25.4" r="0.24" fill="#F0D080" opacity="0.7"/>
+
+    <ellipse cx="23" cy="10" rx="2.8" ry="2.2" fill="url(#patina-solar)"/>
+
+    <polygon points="6.40,8.00 9.43,7.77 9.33,11.33 6.20,11.56" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="9.43,7.77 12.47,7.53 12.47,11.11 9.33,11.33" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="12.47,7.53 15.50,7.30 15.60,10.88 12.47,11.11" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="15.50,7.30 18.53,7.07 18.73,10.65 15.60,10.88" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="18.53,7.07 21.57,6.83 21.87,10.43 18.73,10.65" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="21.57,6.83 24.60,6.60 25.00,10.20 21.87,10.43" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="6.20,11.56 9.33,11.33 9.23,14.90 6.00,15.12" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="9.33,11.33 12.47,11.11 12.47,14.68 9.23,14.90" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="12.47,11.11 15.60,10.88 15.70,14.46 12.47,14.68" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="15.60,10.88 18.73,10.65 18.93,14.24 15.70,14.46" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="18.73,10.65 21.87,10.43 22.17,14.02 18.93,14.24" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="21.87,10.43 25.00,10.20 25.40,13.80 22.17,14.02" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="6.00,15.12 9.23,14.90 9.13,18.47 5.80,18.68" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="9.23,14.90 12.47,14.68 12.47,18.25 9.13,18.47" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="12.47,14.68 15.70,14.46 15.80,18.04 12.47,18.25" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="15.70,14.46 18.93,14.24 19.13,17.83 15.80,18.04" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="18.93,14.24 22.17,14.02 22.47,17.61 19.13,17.83" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="22.17,14.02 25.40,13.80 25.80,17.40 22.47,17.61" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="5.80,18.68 9.13,18.47 9.03,22.03 5.60,22.24" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="9.13,18.47 12.47,18.25 12.47,21.83 9.03,22.03" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="12.47,18.25 15.80,18.04 15.90,21.62 12.47,21.83" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="15.80,18.04 19.13,17.83 19.33,21.41 15.90,21.62" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="19.13,17.83 22.47,17.61 22.77,21.21 19.33,21.41" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="22.47,17.61 25.80,17.40 26.20,21.00 22.77,21.21" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="5.60,22.24 9.03,22.03 8.93,25.60 5.40,25.80" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="9.03,22.03 12.47,21.83 12.47,25.40 8.93,25.60" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="12.47,21.83 15.90,21.62 16.00,25.20 12.47,25.40" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="15.90,21.62 19.33,21.41 19.53,25.00 16.00,25.20" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="19.33,21.41 22.77,21.21 23.07,24.80 19.53,25.00" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+    <polygon points="22.77,21.21 26.20,21.00 26.60,24.60 23.07,24.80" fill="url(#cell-solar)" stroke="url(#metal-solar)" stroke-width="0.35"/>
+
+    <polygon points="6.5,24 6.5,19 16,8 19,8" fill="#fff" opacity="0.08"/>
+  </g>
+</svg>

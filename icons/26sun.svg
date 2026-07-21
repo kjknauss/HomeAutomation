@@ -1,0 +1,65 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="rivetGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="60%" stop-color="#5C3F14"/>
+      <stop offset="100%" stop-color="#4A3410"/>
+    </radialGradient>
+    <radialGradient id="sunGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFF6D8"/>
+      <stop offset="45%" stop-color="#FFD84F"/>
+      <stop offset="100%" stop-color="#D68A12"/>
+    </radialGradient>
+    <radialGradient id="sunsetGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFE3B0"/>
+      <stop offset="45%" stop-color="#FF9A3D"/>
+      <stop offset="100%" stop-color="#B8500F"/>
+    </radialGradient>
+    <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD84F" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFD84F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9A3D" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FF9A3D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD8E2"/>
+    </linearGradient>
+    <linearGradient id="horizonFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7A5518" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#C9932F" stop-opacity="1"/>
+      <stop offset="88%" stop-color="#C9932F" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7A5518" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.55" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    
+  </defs>
+  <ellipse cx="16.0" cy="29.4" rx="9" ry="1.6" fill="url(#groundShadow)"/><circle cx="16.0" cy="16.0" r="14" fill="url(#glowAmber)"/><g filter="url(#dropshadow)"><line x1="26.20" y1="16.00" x2="28.30" y2="16.00" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="23.21" y1="23.21" x2="24.70" y2="24.70" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="16.00" y1="26.20" x2="16.00" y2="28.30" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="8.79" y1="23.21" x2="7.30" y2="24.70" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="5.80" y1="16.00" x2="3.70" y2="16.00" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="8.79" y1="8.79" x2="7.30" y2="7.30" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="16.00" y1="5.80" x2="16.00" y2="3.70" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="23.21" y1="8.79" x2="24.70" y2="7.30" stroke="url(#brass)" stroke-width="1.3" stroke-linecap="round"/><circle cx="16.0" cy="16.0" r="8.6" fill="url(#sunGrad)" stroke="#8A5A12" stroke-width="0.35"/>
+<circle cx="16.0" cy="16.0" r="8.95" fill="none" stroke="url(#brass)" stroke-width="0.55"/>
+<circle cx="22.33" cy="22.33" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="9.67" cy="22.33" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="9.67" cy="9.67" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="22.33" cy="9.67" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.1"/>
+<ellipse cx="13.25" cy="12.99" rx="2.75" ry="1.72" fill="#FFFFFF" opacity="0.4"/></g>
+</svg>

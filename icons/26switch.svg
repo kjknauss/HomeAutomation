@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="metal-sw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="lens-sw" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#EAF0F5"/>
+      <stop offset="50%" stop-color="#A9B7C2"/>
+      <stop offset="100%" stop-color="#5B6B77"/>
+    </radialGradient>
+    <radialGradient id="glow-sw" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#C7D6E3" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C7D6E3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="patina-sw" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-sw" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+    <filter id="drop-sw" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="16" cy="29.6" rx="9.6" ry="0.9" fill="#000" opacity="0.17" filter="url(#soft-sw)"/>
+
+  <circle cx="16" cy="17" r="13" fill="url(#glow-sw)"/>
+
+  <g filter="url(#drop-sw)">
+    <circle cx="16" cy="17" r="12" fill="url(#metal-sw)" stroke="#4A3410" stroke-width="0.4"/>
+    <circle cx="16" cy="17" r="9.6" fill="url(#lens-sw)"/>
+
+    <ellipse cx="12.5" cy="12.5" rx="3" ry="2.2" fill="#ffffff" opacity="0.3" filter="url(#soft-sw)"/>
+
+    <ellipse cx="8" cy="21" rx="2.4" ry="2" fill="url(#patina-sw)"/>
+
+    <circle cx="16" cy="5.6" r="0.85" fill="#5C3F14"/>
+    <circle cx="15.8" cy="5.4" r="0.28" fill="#F0D080" opacity="0.7"/>
+    <circle cx="16" cy="28.4" r="0.85" fill="#5C3F14"/>
+    <circle cx="15.8" cy="28.2" r="0.28" fill="#F0D080" opacity="0.7"/>
+    <circle cx="4.6" cy="17" r="0.85" fill="#5C3F14"/>
+    <circle cx="4.4" cy="16.8" r="0.28" fill="#F0D080" opacity="0.7"/>
+    <circle cx="27.4" cy="17" r="0.85" fill="#5C3F14"/>
+    <circle cx="27.2" cy="16.8" r="0.28" fill="#F0D080" opacity="0.7"/>
+
+    <path d="M18.55 12.04 A5.45 5.45 0 1 1 13.45 12.04"
+          fill="none" stroke="#F0D080" stroke-width="2.1" stroke-linecap="round" opacity="0.55"/>
+    <path d="M18.20 12.29 A5.2 5.2 0 1 1 13.80 12.29"
+          fill="none" stroke="#4A3410" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="16" y1="9.6" x2="16" y2="14.9" stroke="#F0D080" stroke-width="2.1" stroke-linecap="round" opacity="0.55"/>
+    <line x1="16" y1="9.8" x2="16" y2="14.8" stroke="#4A3410" stroke-width="1.7" stroke-linecap="round"/>
+  </g>
+</svg>

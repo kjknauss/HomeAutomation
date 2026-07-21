@@ -1,0 +1,63 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="brassRing" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </radialGradient>
+    <radialGradient id="faceGrad" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#E9E9EA"/>
+      <stop offset="100%" stop-color="#C6C8CA"/>
+    </radialGradient>
+    <radialGradient id="lensGlow" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFE9B0"/>
+      <stop offset="45%" stop-color="#F0A623"/>
+      <stop offset="100%" stop-color="#8A5A12"/>
+    </radialGradient>
+    <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F0A623" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#F0A623" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="patina" cx="70%" cy="75%" r="60%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+</defs>
+<ellipse cx="16" cy="29.6" rx="8.5" ry="1.5" fill="url(#groundShadow)"/>
+<circle cx="16" cy="18.0" r="9.5" fill="url(#glowAmber)"/>
+<g filter="url(#dropshadow)">
+<circle cx="16" cy="17.0" r="8.2" fill="url(#brassRing)" stroke="#5C3F14" stroke-width="0.35"/>
+<circle cx="21.37" cy="11.63" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="21.18" cy="11.43" r="0.18" fill="#F0D080"/>
+<circle cx="10.63" cy="11.63" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="10.43" cy="11.43" r="0.18" fill="#F0D080"/>
+<circle cx="10.63" cy="22.37" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="10.43" cy="22.18" r="0.18" fill="#F0D080"/>
+<circle cx="21.37" cy="22.37" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="21.18" cy="22.18" r="0.18" fill="#F0D080"/>
+<ellipse cx="20.2" cy="20.8" rx="3.4" ry="2.7" fill="url(#patina)"/>
+<circle cx="16" cy="17.0" r="7.0" fill="url(#faceGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<path d="M5.35,18.64 L5.14,18.47 L4.95,18.27 L4.79,18.04 L4.67,17.80 L4.57,17.54 L4.52,17.27 L4.50,17.00 L4.52,16.73 L4.57,16.46 L4.67,16.20 L4.79,15.96 L4.95,15.73 L5.14,15.53 L5.35,15.36" fill="none" stroke="#2A1D08" stroke-width="0.55" stroke-linecap="round"/>
+<path d="M26.65,18.64 L26.86,18.47 L27.05,18.27 L27.21,18.04 L27.33,17.80 L27.43,17.54 L27.48,17.27 L27.50,17.00 L27.48,16.73 L27.43,16.46 L27.33,16.20 L27.21,15.96 L27.05,15.73 L26.86,15.53 L26.65,15.36" fill="none" stroke="#2A1D08" stroke-width="0.55" stroke-linecap="round"/>
+<path d="M4.55,19.79 L4.19,19.49 L3.87,19.15 L3.60,18.77 L3.38,18.36 L3.23,17.92 L3.13,17.46 L3.10,17.00 L3.13,16.54 L3.23,16.08 L3.38,15.64 L3.60,15.23 L3.87,14.85 L4.19,14.51 L4.55,14.21" fill="none" stroke="#2A1D08" stroke-width="0.45000000000000007" stroke-linecap="round"/>
+<path d="M27.45,19.79 L27.81,19.49 L28.13,19.15 L28.40,18.77 L28.62,18.36 L28.77,17.92 L28.87,17.46 L28.90,17.00 L28.87,16.54 L28.77,16.08 L28.62,15.64 L28.40,15.23 L28.13,14.85 L27.81,14.51 L27.45,14.21" fill="none" stroke="#2A1D08" stroke-width="0.45000000000000007" stroke-linecap="round"/>
+<path d="M3.75,20.93 L3.24,20.52 L2.78,20.04 L2.40,19.50 L2.10,18.92 L1.88,18.30 L1.75,17.66 L1.70,17.00 L1.75,16.34 L1.88,15.70 L2.10,15.08 L2.40,14.50 L2.78,13.96 L3.24,13.48 L3.75,13.07" fill="none" stroke="#2A1D08" stroke-width="0.35000000000000003" stroke-linecap="round"/>
+<path d="M28.25,20.93 L28.76,20.52 L29.22,20.04 L29.60,19.50 L29.90,18.92 L30.12,18.30 L30.25,17.66 L30.30,17.00 L30.25,16.34 L30.12,15.70 L29.90,15.08 L29.60,14.50 L29.22,13.96 L28.76,13.48 L28.25,13.07" fill="none" stroke="#2A1D08" stroke-width="0.35000000000000003" stroke-linecap="round"/>
+<circle cx="16" cy="11.6" r="1.7" fill="url(#lensGlow)" stroke="#5C3F14" stroke-width="0.3"/>
+<path d="M14.5,13.4 L17.9,13.7 L17.3,19.2 L14.0,19.0 Z" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<path d="M14.7,14.2 L12.4,16.6 L13.0,17.6 L15.4,15.6 Z" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.25"/>
+<path d="M17.7,14.4 L19.4,13.0 L18.8,12.1 L17.0,13.6 Z" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.25"/>
+<path d="M14.3,18.8 L12.2,23.6 L13.6,24.2 L15.6,19.3 Z" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<path d="M17.1,19.0 L18.2,24.4 L19.6,24.1 L17.9,18.7 Z" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<ellipse cx="13.3" cy="24.3" rx="1.1" ry="0.5" fill="#5C3F14"/>
+<ellipse cx="19.3" cy="24.4" rx="1.1" ry="0.5" fill="#5C3F14"/>
+</g>
+</svg>

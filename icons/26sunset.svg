@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="rivetGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="60%" stop-color="#5C3F14"/>
+      <stop offset="100%" stop-color="#4A3410"/>
+    </radialGradient>
+    <radialGradient id="sunGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFF6D8"/>
+      <stop offset="45%" stop-color="#FFD84F"/>
+      <stop offset="100%" stop-color="#D68A12"/>
+    </radialGradient>
+    <radialGradient id="sunsetGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFE3B0"/>
+      <stop offset="45%" stop-color="#FF9A3D"/>
+      <stop offset="100%" stop-color="#B8500F"/>
+    </radialGradient>
+    <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD84F" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFD84F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9A3D" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FF9A3D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD8E2"/>
+    </linearGradient>
+    <linearGradient id="horizonFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7A5518" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#C9932F" stop-opacity="1"/>
+      <stop offset="88%" stop-color="#C9932F" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7A5518" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.55" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    
+  </defs>
+  <ellipse cx="16.0" cy="29.4" rx="12" ry="1.5" fill="url(#groundShadow)"/><circle cx="16.0" cy="15.0" r="13" fill="url(#glowOrange)"/><g filter="url(#dropshadow)"><path d="M 5.50,11.00 C 5.50,16.77 10.22,21.50 16.00,21.50 C 21.77,21.50 26.50,16.77 26.50,11.00 Z" fill="url(#sunsetGrad)" stroke="#8A3F0A" stroke-width="0.35"/><ellipse cx="12.64" cy="15.20" rx="2.94" ry="1.68" fill="#FFFFFF" opacity="0.35"/><rect x="1.5" y="10.25" width="29" height="1.5" fill="url(#horizonFade)"/><circle cx="5" cy="11.00" r="0.4" fill="#7A5518" opacity="0.8"/><circle cx="11" cy="11.00" r="0.4" fill="#7A5518" opacity="0.8"/><circle cx="16" cy="11.00" r="0.4" fill="#7A5518" opacity="0.8"/><circle cx="21" cy="11.00" r="0.4" fill="#7A5518" opacity="0.8"/><circle cx="27" cy="11.00" r="0.4" fill="#7A5518" opacity="0.8"/></g>
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="brassRing" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </radialGradient>
+    <radialGradient id="faceGrad" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#E9E9EA"/>
+      <stop offset="100%" stop-color="#C6C8CA"/>
+    </radialGradient>
+    <radialGradient id="glassSheen" cx="35%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="patina" cx="70%" cy="75%" r="60%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+</defs>
+<ellipse cx="16" cy="30.0" rx="9.5" ry="1.6" fill="url(#groundShadow)"/>
+<g filter="url(#dropshadow)">
+<g transform="translate(16 16.0) scale(1.22) translate(-16 -16.0)">
+<circle cx="16" cy="16.0" r="10.6" fill="url(#brassRing)" stroke="#5C3F14" stroke-width="0.35"/>
+<circle cx="23.00" cy="9.00" r="0.7" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="22.79" cy="8.79" r="0.20" fill="#F0D080"/>
+<circle cx="9.00" cy="9.00" r="0.7" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="8.79" cy="8.79" r="0.20" fill="#F0D080"/>
+<circle cx="9.00" cy="23.00" r="0.7" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="8.79" cy="22.79" r="0.20" fill="#F0D080"/>
+<circle cx="23.00" cy="23.00" r="0.7" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="22.79" cy="22.79" r="0.20" fill="#F0D080"/>
+<ellipse cx="21" cy="21.5" rx="4.5" ry="3.6" fill="url(#patina)"/>
+<circle cx="16" cy="16.0" r="9.0" fill="url(#faceGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<line x1="23.20" y1="16.00" x2="24.50" y2="16.00" stroke="#5C3F14" stroke-width="0.5"/>
+<line x1="21.37" y1="10.63" x2="22.01" y2="9.99" stroke="#5C3F14" stroke-width="0.35"/>
+<line x1="16.00" y1="8.80" x2="16.00" y2="7.50" stroke="#5C3F14" stroke-width="0.5"/>
+<line x1="10.63" y1="10.63" x2="9.99" y2="9.99" stroke="#5C3F14" stroke-width="0.35"/>
+<line x1="8.80" y1="16.00" x2="7.50" y2="16.00" stroke="#5C3F14" stroke-width="0.5"/>
+<line x1="10.63" y1="21.37" x2="9.99" y2="22.01" stroke="#5C3F14" stroke-width="0.35"/>
+<line x1="16.00" y1="23.20" x2="16.00" y2="24.50" stroke="#5C3F14" stroke-width="0.5"/>
+<line x1="21.37" y1="21.37" x2="22.01" y2="22.01" stroke="#5C3F14" stroke-width="0.35"/>
+<circle cx="16" cy="16.0" r="9.0" fill="url(#glassSheen)"/>
+<text x="16" y="21.9" font-family="Georgia, serif" font-size="4.4" font-style="italic" font-weight="bold" fill="#5C3F14" text-anchor="middle">p</text>
+<polygon points="19.10,10.63 15.52,15.72 14.90,17.91 16.48,16.27" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.25"/>
+<circle cx="16" cy="16.0" r="1.5" fill="url(#brassRing)" stroke="#5C3F14" stroke-width="0.3"/>
+<circle cx="15.6" cy="15.6" r="0.4" fill="#F6E3AE"/>
+</g>
+</g>
+</svg>
