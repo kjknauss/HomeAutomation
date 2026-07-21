@@ -1,0 +1,61 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="brassGradDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9932F"/>
+      <stop offset="55%" stop-color="#8A6420"/>
+      <stop offset="100%" stop-color="#5C3F14"/>
+    </linearGradient>
+    <linearGradient id="canvasCream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3E8CC"/>
+      <stop offset="100%" stop-color="#D9C79E"/>
+    </linearGradient>
+    <linearGradient id="canvasMaroon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B24338"/>
+      <stop offset="100%" stop-color="#7A2318"/>
+    </linearGradient>
+    <radialGradient id="patina" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+    <clipPath id="canopyClip">
+      <path d="M9.5,6.4 L22.5,6.4 L27.0,16.6 L5.0,16.6 Z"/>
+    </clipPath>
+</defs>
+<ellipse cx="16" cy="29.4" rx="9.5" ry="1.4" fill="url(#groundShadow)"/>
+<g filter="url(#dropshadow)">
+<rect x="7.0" y="3.0" width="18.0" height="3.2" rx="0.8" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<circle cx="9.00" cy="4.60" r="0.75" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="8.78" cy="4.38" r="0.21" fill="#F0D080"/>
+<circle cx="23.00" cy="4.60" r="0.75" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="22.77" cy="4.38" r="0.21" fill="#F0D080"/>
+<ellipse cx="9.5" cy="4.0" rx="2.6" ry="1.6" fill="url(#patina)"/>
+<path d="M9.7,6.6 L5.3,16.0" stroke="url(#brassGradDark)" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M22.3,6.6 L26.7,16.0" stroke="url(#brassGradDark)" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M9.5,6.4 L22.5,6.4 L27.0,16.6 L5.0,16.6 Z" fill="url(#canvasCream)" stroke="#5C3F14" stroke-width="0.3"/>
+<g clip-path="url(#canopyClip)">
+<rect x="8.14" y="5.4" width="3.14" height="12.20" fill="url(#canvasMaroon)"/>
+<rect x="14.43" y="5.4" width="3.14" height="12.20" fill="url(#canvasMaroon)"/>
+<rect x="20.71" y="5.4" width="3.14" height="12.20" fill="url(#canvasMaroon)"/>
+<line x1="13.40" y1="6.4" x2="11.60" y2="16.6" stroke="#000000" stroke-opacity="0.08" stroke-width="0.4"/>
+<line x1="16.26" y1="6.4" x2="16.44" y2="16.6" stroke="#000000" stroke-opacity="0.08" stroke-width="0.4"/>
+<line x1="19.12" y1="6.4" x2="21.28" y2="16.6" stroke="#000000" stroke-opacity="0.08" stroke-width="0.4"/>
+</g>
+<path d="M5.00,16.60 A1.57,1.57 0 0 0 8.14,16.60 Z" fill="url(#canvasCream)" stroke="#5C3F14" stroke-width="0.2"/>
+<path d="M8.14,16.60 A1.57,1.57 0 0 0 11.29,16.60 Z" fill="url(#canvasMaroon)" stroke="#5C3F14" stroke-width="0.2"/>
+<path d="M11.29,16.60 A1.57,1.57 0 0 0 14.43,16.60 Z" fill="url(#canvasCream)" stroke="#5C3F14" stroke-width="0.2"/>
+<path d="M14.43,16.60 A1.57,1.57 0 0 0 17.57,16.60 Z" fill="url(#canvasMaroon)" stroke="#5C3F14" stroke-width="0.2"/>
+<path d="M17.57,16.60 A1.57,1.57 0 0 0 20.71,16.60 Z" fill="url(#canvasCream)" stroke="#5C3F14" stroke-width="0.2"/>
+<path d="M20.71,16.60 A1.57,1.57 0 0 0 23.86,16.60 Z" fill="url(#canvasMaroon)" stroke="#5C3F14" stroke-width="0.2"/>
+<path d="M23.86,16.60 A1.57,1.57 0 0 0 27.00,16.60 Z" fill="url(#canvasCream)" stroke="#5C3F14" stroke-width="0.2"/>
+</g>
+</svg>

@@ -1,0 +1,68 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="brassGradH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7A5518"/>
+      <stop offset="45%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#F0D080"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="domeGlass" cx="38%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#F1F1F1"/>
+      <stop offset="100%" stop-color="#D8D8D8"/>
+    </radialGradient>
+    <radialGradient id="lensRing1" cx="38%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="100%" stop-color="#2c2c2c"/>
+    </radialGradient>
+    <radialGradient id="lensRing2" cx="36%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#161616"/>
+    </radialGradient>
+    <radialGradient id="lensRing3" cx="34%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#161616"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </radialGradient>
+    <radialGradient id="lensCore" cx="32%" cy="26%" r="75%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="60%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="patina" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+</defs>
+<ellipse cx="16" cy="29.4" rx="8.5" ry="1.5" fill="url(#groundShadow)"/>
+<g filter="url(#dropshadow)">
+<rect x="8.0" y="3.0" width="16.0" height="3.2" rx="1.0" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<circle cx="10.20" cy="4.60" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="10.05" cy="4.45" r="0.14" fill="#F0D080"/>
+<circle cx="21.80" cy="4.60" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="21.65" cy="4.45" r="0.14" fill="#F0D080"/>
+<rect x="7.4" y="5.6" width="17.2" height="2.4" rx="0.6" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<path d="M7.4,7.6 L24.6,7.6 L24.6,16.0 A8.600000000000001,8.600000000000001 0 0 1 16.0,24.6 L16.0,24.6 A8.600000000000001,8.600000000000001 0 0 1 7.4,16.0 Z" fill="url(#domeGlass)" stroke="#5C3F14" stroke-width="0.35"/>
+<circle cx="15.5" cy="18.2" r="4.3" fill="url(#lensRing1)"/>
+<circle cx="15.5" cy="18.2" r="3.3" fill="url(#lensRing2)"/>
+<circle cx="15.5" cy="18.2" r="2.3" fill="url(#lensRing3)"/>
+<circle cx="15.5" cy="18.2" r="1.3" fill="url(#lensCore)"/>
+<circle cx="14.95" cy="17.599999999999998" r="0.4" fill="#ffffff" fill-opacity="0.5"/>
+<rect x="7.1000000000000005" y="11.71" width="17.800000000000004" height="2.2" fill="url(#brassGradH)" stroke="#5C3F14" stroke-width="0.3" fill-opacity="0.94"/>
+<circle cx="8.70" cy="12.81" r="0.55" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="8.54" cy="12.64" r="0.15" fill="#F0D080"/>
+<circle cx="13.40" cy="12.81" r="0.55" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="13.24" cy="12.64" r="0.15" fill="#F0D080"/>
+<circle cx="16.00" cy="12.81" r="0.55" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.84" cy="12.64" r="0.15" fill="#F0D080"/>
+<circle cx="18.60" cy="12.81" r="0.55" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="18.44" cy="12.64" r="0.15" fill="#F0D080"/>
+<circle cx="23.30" cy="12.81" r="0.55" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="23.14" cy="12.64" r="0.15" fill="#F0D080"/>
+<ellipse cx="10.5" cy="9.5" rx="3.2" ry="2.2" fill="url(#patina)"/>
+</g>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="plateGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3DA9E"/>
+      <stop offset="50%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#8A6420"/>
+    </linearGradient>
+    <linearGradient id="paddleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6E3AE"/>
+      <stop offset="45%" stop-color="#D9A741"/>
+      <stop offset="100%" stop-color="#8A6420"/>
+    </linearGradient>
+    <linearGradient id="paddleBevelLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFF6DD" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFF6DD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paddleBevelDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3A2A0D" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#3A2A0D" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="patina" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+    <filter id="paddleShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.6" stdDeviation="0.5" flood-color="#2a1c06" flood-opacity="0.55"/>
+    </filter>
+</defs>
+<ellipse cx="16" cy="29.6" rx="8.5" ry="1.5" fill="url(#groundShadow)"/>
+<g filter="url(#dropshadow)">
+<rect x="7.0" y="3.4" width="18" height="25.2" rx="2.4" fill="url(#plateGrad)" stroke="#5C3F14" stroke-width="0.35"/>
+<circle cx="16" cy="5.6" r="0.6" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="15.82" cy="5.42" r="0.17" fill="#F0D080"/>
+<circle cx="16" cy="26.4" r="0.6" fill="#5C3F14" stroke="#4A3410" stroke-width="0.22"/><circle cx="15.82" cy="26.22" r="0.17" fill="#F0D080"/>
+<ellipse cx="10.5" cy="7" rx="3.6" ry="5.4" fill="url(#patina)"/>
+<rect x="9.6" y="8.2" width="12.8" height="15.6" rx="1.6" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<rect x="10.0" y="8.6" width="12.0" height="14.8" rx="1.3" fill="none" stroke="#3A2A0D" stroke-width="0.3" stroke-opacity="0.5"/>
+<g filter="url(#paddleShadow)">
+<rect x="11.0" y="9.6" width="10.0" height="13.2" rx="1.5" fill="url(#paddleGrad)" stroke="#5C3F14" stroke-width="0.35"/>
+</g>
+<rect x="11.0" y="9.6" width="2.4" height="13.2" rx="1.2" fill="url(#paddleBevelLight)"/>
+<rect x="18.6" y="9.6" width="2.4" height="13.2" rx="1.2" fill="url(#paddleBevelDark)"/>
+<rect x="11.6" y="16.0" width="8.8" height="0.3" fill="#5C3F14" fill-opacity="0.35"/>
+</g>
+</svg>
