@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="brassRing" cx="32%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#F6E3AE"/>
+      <stop offset="45%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#6E4C15"/>
+    </radialGradient>
+    <linearGradient id="bladeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A6420"/>
+      <stop offset="15%" stop-color="#F0D080"/>
+      <stop offset="50%" stop-color="#C9932F"/>
+      <stop offset="85%" stop-color="#8A6420"/>
+      <stop offset="100%" stop-color="#5C3F14"/>
+    </linearGradient>
+    <radialGradient id="patina" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+</defs>
+<ellipse cx="16" cy="29.6" rx="9.5" ry="1.5" fill="url(#groundShadow)"/>
+<g filter="url(#dropshadow)">
+<rect x="12.8" y="1.4" width="6.4" height="1.8" rx="0.7" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<circle cx="14.00" cy="2.30" r="0.35" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="13.89" cy="2.19" r="0.10" fill="#F0D080"/>
+<circle cx="18.00" cy="2.30" r="0.35" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="17.89" cy="2.19" r="0.10" fill="#F0D080"/>
+<rect x="15.5" y="3.1" width="1.0" height="6.0" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.2"/>
+<rect x="14.6" y="9.0" width="2.8" height="1.5" rx="0.4" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.25"/>
+<g transform="translate(16 13.6) scale(1 0.7) translate(-16 -13.6)">
+<ellipse cx="16" cy="14.9" rx="3.7" ry="3.7" fill="#2A1D08" fill-opacity="0.4"/>
+<g transform="rotate(0 16 13.6)"><path d="M14.45,11.00 C14.00,7.60 14.10,4.00 15.10,2.00 L16.90,2.00 C17.50,4.40 17.50,7.60 17.55,11.00 Z" fill="url(#bladeGrad)" stroke="#5C3F14" stroke-width="0.3"/><path d="M14.45,11.00 C14.00,7.60 14.10,4.00 15.10,2.00 L16.90,2.00 C17.50,4.40 17.50,7.60 17.55,11.00 Z" fill="#000000" fill-opacity="0.22" stroke="none"/><line x1="16.00" y1="10.60" x2="16.00" y2="2.60" stroke="#5C3F14" stroke-width="0.25" stroke-opacity="0.6"/><circle cx="16.00" cy="9.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="8.88" r="0.11" fill="#F0D080"/><circle cx="16.00" cy="5.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="4.88" r="0.11" fill="#F0D080"/></g>
+<g transform="rotate(90 16 13.6)"><path d="M14.45,11.00 C14.00,7.60 14.10,4.00 15.10,2.00 L16.90,2.00 C17.50,4.40 17.50,7.60 17.55,11.00 Z" fill="url(#bladeGrad)" stroke="#5C3F14" stroke-width="0.3"/><line x1="16.00" y1="10.60" x2="16.00" y2="2.60" stroke="#5C3F14" stroke-width="0.25" stroke-opacity="0.6"/><circle cx="16.00" cy="9.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="8.88" r="0.11" fill="#F0D080"/><circle cx="16.00" cy="5.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="4.88" r="0.11" fill="#F0D080"/></g>
+<g transform="rotate(270 16 13.6)"><path d="M14.45,11.00 C14.00,7.60 14.10,4.00 15.10,2.00 L16.90,2.00 C17.50,4.40 17.50,7.60 17.55,11.00 Z" fill="url(#bladeGrad)" stroke="#5C3F14" stroke-width="0.3"/><line x1="16.00" y1="10.60" x2="16.00" y2="2.60" stroke="#5C3F14" stroke-width="0.25" stroke-opacity="0.6"/><circle cx="16.00" cy="9.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="8.88" r="0.11" fill="#F0D080"/><circle cx="16.00" cy="5.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="4.88" r="0.11" fill="#F0D080"/></g>
+<g transform="rotate(180 16 13.6)"><path d="M14.45,11.00 C14.00,7.60 14.10,4.00 15.10,2.00 L16.90,2.00 C17.50,4.40 17.50,7.60 17.55,11.00 Z" fill="url(#bladeGrad)" stroke="#5C3F14" stroke-width="0.3"/><path d="M14.45,11.00 C14.00,7.60 14.10,4.00 15.10,2.00 L16.90,2.00 C17.50,4.40 17.50,7.60 17.55,11.00 Z" fill="#FFFFFF" fill-opacity="0.18" stroke="none"/><line x1="16.00" y1="10.60" x2="16.00" y2="2.60" stroke="#5C3F14" stroke-width="0.25" stroke-opacity="0.6"/><circle cx="16.00" cy="9.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="8.88" r="0.11" fill="#F0D080"/><circle cx="16.00" cy="5.00" r="0.4" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="15.88" cy="4.88" r="0.11" fill="#F0D080"/></g>
+<circle cx="16" cy="13.6" r="3.7" fill="url(#brassRing)" stroke="#5C3F14" stroke-width="0.35"/>
+<circle cx="16" cy="13.6" r="2.6" fill="none" stroke="#5C3F14" stroke-width="0.25" stroke-opacity="0.4"/>
+<circle cx="18.60" cy="15.10" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="18.45" cy="14.95" r="0.14" fill="#F0D080"/>
+<circle cx="14.50" cy="16.20" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="14.35" cy="16.05" r="0.14" fill="#F0D080"/>
+<circle cx="13.40" cy="12.10" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="13.25" cy="11.95" r="0.14" fill="#F0D080"/>
+<circle cx="17.50" cy="11.00" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="17.35" cy="10.85" r="0.14" fill="#F0D080"/>
+<circle cx="16" cy="13.6" r="1.1" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.25"/>
+<circle cx="15.7" cy="13.299999999999999" r="0.32" fill="#F6E3AE"/>
+<ellipse cx="14.4" cy="12.0" rx="1.8" ry="1.4" fill="url(#patina)"/>
+</g>
+</g>
+</svg>

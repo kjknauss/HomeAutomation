@@ -1,0 +1,34 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="rivetGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="60%" stop-color="#5C3F14"/>
+      <stop offset="100%" stop-color="#4A3410"/>
+    </radialGradient>
+    <linearGradient id="dropGrad" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#9A9A9E"/>
+      <stop offset="35%" stop-color="#9A9A9E"/>
+      <stop offset="55%" stop-color="#3A3A3D"/>
+      <stop offset="100%" stop-color="#0A0A0C"/>
+    </linearGradient>
+    <radialGradient id="glowColor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6A6A6E" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6A6A6E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.55" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    
+  </defs>
+  <ellipse cx="16.0" cy="29.6" rx="8.6" ry="1.6" fill="url(#groundShadow)"/><circle cx="16.0" cy="16.2" r="13" fill="url(#glowColor)"/><g filter="url(#dropshadow)"><path d="M 16.00,3.20 C 23.91,17.70 24.60,22.70 24.60,23.20 C 24.60,28.00 20.73,29.20 16.00,29.20 C 11.27,29.20 7.40,28.00 7.40,23.20 C 7.40,22.70 8.09,17.70 16.00,3.20 Z" fill="url(#dropGrad)" stroke="#000000" stroke-width="0.4"/><ellipse cx="13.00" cy="14.20" rx="1.9" ry="6.2" fill="#FFFFFF" opacity="0.45" transform="rotate(-8 13.00 14.20)"/><ellipse cx="19.20" cy="11.20" rx="0.7" ry="1.6" fill="#FFFFFF" opacity="0.35"/><circle cx="16.00" cy="3.20" r="0.65" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.15"/></g>
+</svg>

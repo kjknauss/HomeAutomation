@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="brassGradDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9932F"/>
+      <stop offset="55%" stop-color="#8A6420"/>
+      <stop offset="100%" stop-color="#5C3F14"/>
+    </linearGradient>
+    <radialGradient id="brassRing" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </radialGradient>
+    <radialGradient id="patina" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F0A623" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F0A623" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5FCB6E" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5FCB6E" stop-opacity="0"/>
+    </radialGradient>
+</defs>
+<ellipse cx="16" cy="29.2" rx="9.5" ry="1.5" fill="url(#groundShadow)"/>
+<ellipse cx="16" cy="16" rx="10" ry="9" fill="url(#glowAmber)"/>
+<g filter="url(#dropshadow)">
+<rect x="4.0" y="5.5" width="24.0" height="21.0" rx="1.8" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.35"/><circle cx="6.00" cy="7.40" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="5.85" cy="7.25" r="0.14" fill="#F0D080"/><circle cx="26.00" cy="7.40" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="25.85" cy="7.25" r="0.14" fill="#F0D080"/><circle cx="6.00" cy="24.60" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="5.85" cy="24.45" r="0.14" fill="#F0D080"/><circle cx="26.00" cy="24.60" r="0.5" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="25.85" cy="24.45" r="0.14" fill="#F0D080"/><ellipse cx="8" cy="9" rx="4" ry="3" fill="url(#patina)"/><circle cx="10.8" cy="11.6" r="2.9" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.28"/><circle cx="10.8" cy="11.6" r="1.80" fill="none" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.6"/><line x1="13.41" y1="11.60" x2="8.19" y2="11.60" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="12.65" y1="13.45" x2="8.95" y2="9.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="10.80" y1="14.21" x2="10.80" y2="8.99" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="8.95" y1="13.45" x2="12.65" y2="9.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><circle cx="10.8" cy="11.6" r="0.93" fill="#F0A623"/><path d="M11.73,11.60 L12.60,11.60" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M11.46,12.26 L12.07,12.87" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M10.80,12.53 L10.80,13.40" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M10.14,12.26 L9.53,12.87" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M9.87,11.60 L9.00,11.60" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M10.14,10.94 L9.53,10.33" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M10.80,10.67 L10.80,9.80" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><path d="M11.46,10.94 L12.07,10.33" stroke="#FFCB6B" stroke-width="0.4" stroke-opacity="0.85" stroke-linecap="round"/><circle cx="21.2" cy="11.6" r="2.9" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.28"/><circle cx="21.2" cy="11.6" r="1.80" fill="none" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.6"/><line x1="23.81" y1="11.60" x2="18.59" y2="11.60" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="23.05" y1="13.45" x2="19.35" y2="9.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="21.20" y1="14.21" x2="21.20" y2="8.99" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="19.35" y1="13.45" x2="23.05" y2="9.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><circle cx="21.2" cy="11.6" r="0.93" fill="#3a4048"/><circle cx="10.8" cy="20.6" r="2.9" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.28"/><circle cx="10.8" cy="20.6" r="1.80" fill="none" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.6"/><line x1="13.41" y1="20.60" x2="8.19" y2="20.60" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="12.65" y1="22.45" x2="8.95" y2="18.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="10.80" y1="23.21" x2="10.80" y2="17.99" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="8.95" y1="22.45" x2="12.65" y2="18.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><circle cx="10.8" cy="20.6" r="0.93" fill="#3a4048"/><circle cx="21.2" cy="20.6" r="2.9" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.28"/><circle cx="21.2" cy="20.6" r="1.80" fill="none" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.6"/><line x1="23.81" y1="20.60" x2="18.59" y2="20.60" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="23.05" y1="22.45" x2="19.35" y2="18.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="21.20" y1="23.21" x2="21.20" y2="17.99" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><line x1="19.35" y1="22.45" x2="23.05" y2="18.75" stroke="#5C3F14" stroke-width="0.22" stroke-opacity="0.7"/><circle cx="21.2" cy="20.6" r="0.93" fill="#3a4048"/></g>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="postBrass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A5F1E"/>
+      <stop offset="45%" stop-color="#D9A845"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <radialGradient id="rivetGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="60%" stop-color="#5C3F14"/>
+      <stop offset="100%" stop-color="#4A3410"/>
+    </radialGradient>
+    <radialGradient id="finialGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </radialGradient>
+    <radialGradient id="patinaGrad" cx="30%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.55" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    
+  </defs>
+  <ellipse cx="16" cy="29.4" rx="11" ry="1.6" fill="url(#groundShadow)"/><g filter="url(#dropshadow)"><rect x="6.00" y="12.50" width="1.70" height="12.80" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 6.00,12.50 L 6.85,11.20 L 7.70,12.50 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="9.05" y="10.30" width="1.70" height="15.00" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 9.05,10.30 L 9.90,9.00 L 10.75,10.30 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="12.10" y="8.70" width="1.70" height="16.60" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 12.10,8.70 L 12.95,7.40 L 13.80,8.70 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="15.15" y="8.00" width="1.70" height="17.30" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 15.15,8.00 L 16.00,6.70 L 16.85,8.00 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="18.20" y="8.70" width="1.70" height="16.60" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 18.20,8.70 L 19.05,7.40 L 19.90,8.70 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="21.25" y="10.30" width="1.70" height="15.00" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 21.25,10.30 L 22.10,9.00 L 22.95,10.30 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="24.30" y="12.50" width="1.70" height="12.80" rx="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.18"/><path d="M 24.30,12.50 L 25.15,11.20 L 26.00,12.50 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.15"/><rect x="4.60" y="16.75" width="22.80" height="1.50" fill="url(#brass)" stroke="#4A3410" stroke-width="0.2"/><circle cx="6.85" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="9.90" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="12.95" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="16.00" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="19.05" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="22.10" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="25.15" cy="17.50" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><rect x="4.60" y="21.85" width="22.80" height="1.50" fill="url(#brass)" stroke="#4A3410" stroke-width="0.2"/><circle cx="6.85" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="9.90" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="12.95" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="16.00" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="19.05" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="22.10" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="25.15" cy="22.60" r="0.42" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><rect x="3.45" y="5.50" width="2.30" height="21.50" rx="0.4" fill="url(#postBrass)" stroke="#4A3410" stroke-width="0.22"/><ellipse cx="4.10" cy="16.25" rx="0.9" ry="9.14" fill="url(#patinaGrad)"/><circle cx="4.60" cy="4.40" r="1.15" fill="url(#finialGrad)" stroke="#4A3410" stroke-width="0.2"/><circle cx="4.25" cy="4.05" r="0.32" fill="#F0D080"/><circle cx="4.60" cy="17.50" r="0.45" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="4.60" cy="22.60" r="0.45" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><rect x="26.25" y="5.50" width="2.30" height="21.50" rx="0.4" fill="url(#postBrass)" stroke="#4A3410" stroke-width="0.22"/><ellipse cx="26.90" cy="16.25" rx="0.9" ry="9.14" fill="url(#patinaGrad)"/><circle cx="27.40" cy="4.40" r="1.15" fill="url(#finialGrad)" stroke="#4A3410" stroke-width="0.2"/><circle cx="27.05" cy="4.05" r="0.32" fill="#F0D080"/><circle cx="27.40" cy="17.50" r="0.45" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><circle cx="27.40" cy="22.60" r="0.45" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.12"/><rect x="24.45" y="17.00" width="1.7" height="1.0" rx="0.25" fill="url(#rivetGrad)" stroke="#4A3410" stroke-width="0.15"/><circle cx="24.05" cy="17.50" r="0.7" fill="url(#finialGrad)" stroke="#4A3410" stroke-width="0.15"/></g>
+</svg>

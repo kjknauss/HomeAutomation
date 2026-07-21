@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="glow-on" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFD54A" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFD54A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glass-on" cx="35%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="45%" stop-color="#FFC94A"/>
+      <stop offset="100%" stop-color="#E2790A"/>
+    </radialGradient>
+    <linearGradient id="metal-on" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#AEB3B8"/>
+      <stop offset="100%" stop-color="#54585C"/>
+    </linearGradient>
+    <filter id="soft-on" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+    <filter id="drop-on" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.5" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="16" cy="31.2" rx="5.4" ry="0.8" fill="#000" opacity="0.18" filter="url(#soft-on)"/>
+
+  <circle cx="16" cy="13" r="13" fill="url(#glow-on)"/>
+
+  <g filter="url(#drop-on)">
+    <path d="M16 3.5 C11 3.5 7 7.3 7 12.3 C7 15.8 8.8 18.2 10.6 19.9
+             C11.6 20.9 12.2 21.9 12.3 23 L19.7 23
+             C19.8 21.9 20.4 20.9 21.4 19.9 C23.2 18.2 25 15.8 25 12.3
+             C25 7.3 21 3.5 16 3.5 Z"
+          fill="url(#glass-on)" stroke="#B45309" stroke-width="0.5"/>
+
+    <path d="M13.6 21 L13.6 13.2 M18.4 21 L18.4 13.2"
+          fill="none" stroke="#C2410C" stroke-width="0.9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M13.6 13.2 C13.6 11 18.4 11 18.4 13.2"
+          fill="none" stroke="#FFE29A" stroke-width="1.1"
+          stroke-linecap="round" filter="url(#soft-on)"/>
+    <path d="M13.6 13.2 C13.6 11 18.4 11 18.4 13.2"
+          fill="none" stroke="#C2410C" stroke-width="0.7"
+          stroke-linecap="round"/>
+
+    <rect x="12.3" y="23" width="7.4" height="1.4" fill="url(#metal-on)"/>
+    <rect x="12" y="24.4" width="8" height="4.6" rx="0.6" fill="url(#metal-on)" stroke="#333638" stroke-width="0.3"/>
+    <rect x="13.2" y="24.5" width="1.1" height="4.4" fill="#fff" opacity="0.25"/>
+    <rect x="18.1" y="24.5" width="1.1" height="4.4" fill="#000" opacity="0.22"/>
+    <rect x="12" y="26" width="8" height="0.7" fill="#2b2e30" opacity="0.75"/>
+    <rect x="12" y="26.05" width="8" height="0.25" fill="#fff" opacity="0.2"/>
+    <rect x="12" y="27.6" width="8" height="0.7" fill="#2b2e30" opacity="0.75"/>
+    <rect x="12" y="27.65" width="8" height="0.25" fill="#fff" opacity="0.2"/>
+    <rect x="13.4" y="29" width="5.2" height="1.6" rx="0.5" fill="url(#metal-on)"/>
+  </g>
+
+  <ellipse cx="11.6" cy="8.4" rx="2.6" ry="4" fill="#ffffff" opacity="0.4" filter="url(#soft-on)"/>
+  <ellipse cx="11" cy="7.6" rx="0.9" ry="1.5" fill="#ffffff" opacity="0.55"/>
+</svg>

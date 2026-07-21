@@ -1,0 +1,102 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
+    <linearGradient id="brassGradDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9932F"/>
+      <stop offset="55%" stop-color="#8A6420"/>
+      <stop offset="100%" stop-color="#5C3F14"/>
+    </linearGradient>
+    <linearGradient id="doorwayGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33404A"/>
+      <stop offset="100%" stop-color="#12181D"/>
+    </linearGradient>
+    <radialGradient id="brassRing" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#F0D080"/>
+      <stop offset="55%" stop-color="#C9932F"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </radialGradient>
+    <linearGradient id="carBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9564A"/>
+      <stop offset="55%" stop-color="#8C2A22"/>
+      <stop offset="100%" stop-color="#5C1712"/>
+    </linearGradient>
+    <radialGradient id="headlight" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#FFF3D0"/>
+      <stop offset="60%" stop-color="#F0C060"/>
+      <stop offset="100%" stop-color="#B4801E"/>
+    </radialGradient>
+    <radialGradient id="patina" cx="30%" cy="22%" r="70%">
+      <stop offset="0%" stop-color="#3B5240" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.6" flood-color="#3a2408" flood-opacity="0.45"/>
+    </filter>
+    <clipPath id="doorClip">
+      <rect x="6.3" y="9.3" width="19.4" height="19.1"/>
+    </clipPath>
+    <clipPath id="interiorClip">
+      <rect x="6.3" y="9.3" width="19.4" height="19.1"/>
+    </clipPath>
+</defs>
+<ellipse cx="16" cy="29.6" rx="9.5" ry="1.5" fill="url(#groundShadow)"/>
+<g filter="url(#dropshadow)">
+<rect x="6.3" y="9.3" width="19.40" height="19.10" fill="url(#doorwayGrad)"/>
+<g clip-path="url(#interiorClip)">
+<rect x="10.61" y="24.65" width="1.36" height="1.83" rx="0.41" fill="#1A1108"/><rect x="20.04" y="24.65" width="1.36" height="1.83" rx="0.41" fill="#1A1108"/><path d="M11.15,27.40 L11.15,20.52 C11.15,17.32 12.90,15.94 16.00,15.94 C19.10,15.94 20.85,17.32 20.85,20.52 L20.85,27.40 Z" fill="url(#carBody)" stroke="#3A0F0B" stroke-width="0.25"/><rect x="12.70" y="17.89" width="6.60" height="1.26" rx="0.4" fill="#2A343C" fill-opacity="0.85"/><circle cx="12.70" cy="25.11" r="1.07" fill="url(#headlight)" stroke="#8A5A12" stroke-width="0.15"/><circle cx="19.30" cy="25.11" r="1.07" fill="url(#headlight)" stroke="#8A5A12" stroke-width="0.15"/><rect x="10.95" y="26.52" width="10.10" height="0.80" rx="0.25" fill="#3A0F0B" fill-opacity="0.7"/>
+</g>
+<rect x="4.0" y="5.2" width="24.00" height="4.10" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<rect x="4.0" y="5.2" width="2.30" height="23.20" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<rect x="25.7" y="5.2" width="2.30" height="23.20" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.3"/>
+<circle cx="5.15" cy="6.30" r="0.8" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="4.91" cy="6.06" r="0.22" fill="#F0D080"/>
+<circle cx="26.85" cy="6.30" r="0.8" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="26.61" cy="6.06" r="0.22" fill="#F0D080"/>
+<circle cx="5.15" cy="16.50" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="4.96" cy="16.30" r="0.18" fill="#F0D080"/>
+<circle cx="5.15" cy="23.50" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="4.96" cy="23.30" r="0.18" fill="#F0D080"/>
+<circle cx="26.85" cy="16.50" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="26.66" cy="16.30" r="0.18" fill="#F0D080"/>
+<circle cx="26.85" cy="23.50" r="0.65" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="26.66" cy="23.30" r="0.18" fill="#F0D080"/>
+<ellipse cx="8.0" cy="8.2" rx="4.2" ry="3.2" fill="url(#patina)"/>
+<rect x="6.3" y="6.6" width="19.40" height="2.40" rx="0.4" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.25"/>
+<circle cx="24.10" cy="7.80" r="1.0" fill="url(#brassRing)" stroke="#5C3F14" stroke-width="0.2"/>
+<circle cx="25.35" cy="7.80" r="0.28" fill="#5C3F14"/>
+<circle cx="24.98" cy="8.68" r="0.28" fill="#5C3F14"/>
+<circle cx="24.10" cy="9.05" r="0.28" fill="#5C3F14"/>
+<circle cx="23.22" cy="8.68" r="0.28" fill="#5C3F14"/>
+<circle cx="22.85" cy="7.80" r="0.28" fill="#5C3F14"/>
+<circle cx="23.22" cy="6.92" r="0.28" fill="#5C3F14"/>
+<circle cx="24.10" cy="6.55" r="0.28" fill="#5C3F14"/>
+<circle cx="24.98" cy="6.92" r="0.28" fill="#5C3F14"/>
+<g clip-path="url(#doorClip)">
+<rect x="6.3" y="9.3" width="19.40" height="17.19" fill="url(#brassGrad)" stroke="#5C3F14" stroke-width="0.25"/>
+<rect x="6.3" y="12.63" width="19.40" height="0.44" fill="#5C3F14" fill-opacity="0.55"/>
+<circle cx="7.60" cy="12.85" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="7.47" cy="12.72" r="0.12" fill="#F0D080"/>
+<circle cx="24.40" cy="12.85" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="24.27" cy="12.72" r="0.12" fill="#F0D080"/>
+<rect x="7.20" y="9.85" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="16.45" y="9.85" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="6.3" y="16.18" width="19.40" height="0.44" fill="#5C3F14" fill-opacity="0.55"/>
+<circle cx="7.60" cy="16.40" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="7.47" cy="16.27" r="0.12" fill="#F0D080"/>
+<circle cx="24.40" cy="16.40" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="24.27" cy="16.27" r="0.12" fill="#F0D080"/>
+<rect x="7.20" y="13.40" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="16.45" y="13.40" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="6.3" y="19.73" width="19.40" height="0.44" fill="#5C3F14" fill-opacity="0.55"/>
+<circle cx="7.60" cy="19.95" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="7.47" cy="19.82" r="0.12" fill="#F0D080"/>
+<circle cx="24.40" cy="19.95" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="24.27" cy="19.82" r="0.12" fill="#F0D080"/>
+<rect x="7.20" y="16.95" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="16.45" y="16.95" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="6.3" y="23.28" width="19.40" height="0.44" fill="#5C3F14" fill-opacity="0.55"/>
+<circle cx="7.60" cy="23.50" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="7.47" cy="23.37" r="0.12" fill="#F0D080"/>
+<circle cx="24.40" cy="23.50" r="0.42" fill="#5C3F14" stroke="#4A3410" stroke-width="0.2"/><circle cx="24.27" cy="23.37" r="0.12" fill="#F0D080"/>
+<rect x="7.20" y="20.50" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+<rect x="16.45" y="20.50" width="8.35" height="2.45" rx="0.3" fill="url(#brassGradDark)" stroke="#5C3F14" stroke-width="0.18"/>
+</g>
+<rect x="6.15" y="9.30" width="0.7" height="19.10" fill="url(#brassGradDark)" stroke="#4A3410" stroke-width="0.15"/>
+<rect x="25.15" y="9.30" width="0.7" height="19.10" fill="url(#brassGradDark)" stroke="#4A3410" stroke-width="0.15"/>
+</g>
+</svg>
