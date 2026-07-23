@@ -1,0 +1,131 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C9932F"/>
+    <stop offset="60%" stop-color="#8A6420"/>
+    <stop offset="100%" stop-color="#5C3F14"/>
+  </linearGradient>
+  <linearGradient id="rivet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6B4A18"/>
+    <stop offset="100%" stop-color="#4A3410"/>
+  </linearGradient>
+  <linearGradient id="tier1" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#5FCB6E"/>
+    <stop offset="100%" stop-color="#276B31"/>
+  </linearGradient>
+  <linearGradient id="tier2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4FB85E"/>
+    <stop offset="100%" stop-color="#1F5A29"/>
+  </linearGradient>
+  <linearGradient id="tier3" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3FA451"/>
+    <stop offset="100%" stop-color="#184A21"/>
+  </linearGradient>
+  <radialGradient id="patina" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8FE0A0" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#8FE0A0" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="topperGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFE9A0" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#FFE9A0" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1"/>
+  </filter>
+  <clipPath id="tier1Clip"><polygon points="16,4 11,12 21,12"/></clipPath>
+  <clipPath id="tier2Clip"><polygon points="16,9 8.5,17 23.5,17"/></clipPath>
+  <clipPath id="tier3Clip"><polygon points="16,14 6,23 26,23"/></clipPath>
+</defs>
+
+<ellipse cx="16" cy="30" rx="11" ry="1.4" fill="#000000" opacity="0.26" filter="url(#blur1)"/>
+
+<g filter="url(#dropshadow)">
+
+  <!-- pot -->
+  <path d="M11.3,26.2 L20.7,26.2 L19.3,30 L12.7,30 Z" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.5"/>
+  <rect x="10.8" y="25.2" width="10.4" height="1.6" rx="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.4"/>
+  <circle cx="12.6" cy="26" r="0.4" fill="#F0D080"/>
+  <circle cx="19.4" cy="26" r="0.4" fill="#F0D080"/>
+
+  <!-- trunk -->
+  <rect x="14.3" y="22.6" width="3.4" height="3" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.35"/>
+
+  <!-- tree tiers, bottom to top -->
+  <polygon points="16,14 6,23 26,23" fill="url(#tier3)" stroke="#123018" stroke-width="0.5"/>
+  <ellipse cx="10" cy="20" rx="4" ry="3" fill="url(#patina)" clip-path="url(#tier3Clip)"/>
+
+  <polygon points="16,9 8.5,17 23.5,17" fill="url(#tier2)" stroke="#123018" stroke-width="0.5"/>
+  <ellipse cx="12" cy="14.5" rx="3.2" ry="2.4" fill="url(#patina)" clip-path="url(#tier2Clip)"/>
+
+  <polygon points="16,4 11,12 21,12" fill="url(#tier1)" stroke="#123018" stroke-width="0.5"/>
+  <ellipse cx="14.5" cy="9.5" rx="2.2" ry="1.8" fill="url(#patina)" clip-path="url(#tier1Clip)"/>
+
+  <!-- garland swags -->
+  <g fill="none" stroke="url(#brass)" stroke-width="0.4" opacity="0.85">
+    <path d="M7,20 C10,22.4 13,22.4 16,20.4 C19,22.4 22,22.4 25,20"/>
+    <path d="M9.5,14.5 C12,16.2 14,16.2 16,14.8 C18,16.2 20,16.2 22.5,14.5"/>
+    <path d="M12.3,9.6 C14,10.8 15,10.8 16,10 C17,10.8 18,10.8 19.7,9.6"/>
+  </g>
+
+  <!-- ornament baubles -->
+  
+        <circle cx="12.5" cy="11" r="1.3" fill="#FF9E95" opacity="0.25"/>
+        <circle cx="12.5" cy="11" r="0.75" fill="#FF9E95" stroke="#D32F2F" stroke-width="0.2"/>
+        <circle cx="12.28" cy="10.78" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="19.5" cy="10.5" r="1.3" fill="#BFE6FF" opacity="0.25"/>
+        <circle cx="19.5" cy="10.5" r="0.75" fill="#BFE6FF" stroke="#3E86D6" stroke-width="0.2"/>
+        <circle cx="19.28" cy="10.28" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="10" cy="16.5" r="1.3" fill="#FFEB8A" opacity="0.25"/>
+        <circle cx="10" cy="16.5" r="0.75" fill="#FFEB8A" stroke="#F0A623" stroke-width="0.2"/>
+        <circle cx="9.78" cy="16.28" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="22" cy="16" r="1.3" fill="#FF9E95" opacity="0.25"/>
+        <circle cx="22" cy="16" r="0.75" fill="#FF9E95" stroke="#D32F2F" stroke-width="0.2"/>
+        <circle cx="21.78" cy="15.78" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="14.5" cy="20.5" r="1.3" fill="#BFE6FF" opacity="0.25"/>
+        <circle cx="14.5" cy="20.5" r="0.75" fill="#BFE6FF" stroke="#3E86D6" stroke-width="0.2"/>
+        <circle cx="14.28" cy="20.28" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="18" cy="21" r="1.3" fill="#FFEB8A" opacity="0.25"/>
+        <circle cx="18" cy="21" r="0.75" fill="#FFEB8A" stroke="#F0A623" stroke-width="0.2"/>
+        <circle cx="17.78" cy="20.78" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="8.5" cy="21.5" r="1.3" fill="#FF9E95" opacity="0.25"/>
+        <circle cx="8.5" cy="21.5" r="0.75" fill="#FF9E95" stroke="#D32F2F" stroke-width="0.2"/>
+        <circle cx="8.28" cy="21.28" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="24" cy="21" r="1.3" fill="#BFE6FF" opacity="0.25"/>
+        <circle cx="24" cy="21" r="0.75" fill="#BFE6FF" stroke="#3E86D6" stroke-width="0.2"/>
+        <circle cx="23.78" cy="20.78" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+        <circle cx="16" cy="16.5" r="1.3" fill="#FFEB8A" opacity="0.25"/>
+        <circle cx="16" cy="16.5" r="0.75" fill="#FFEB8A" stroke="#F0A623" stroke-width="0.2"/>
+        <circle cx="15.78" cy="16.28" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+        
+
+  <!-- gear-star topper -->
+  <circle cx="16" cy="4" r="3.4" fill="url(#topperGlow)"/>
+  <polygon points="16.00,1.90 16.52,2.75 17.48,2.52 17.25,3.48 18.10,4.00 17.25,4.52 17.48,5.48 16.52,5.25 16.00,6.10 15.48,5.25 14.52,5.48 14.75,4.52 13.90,4.00 14.75,3.48 14.52,2.52 15.48,2.75" fill="url(#brass)" stroke="#4A3410" stroke-width="0.3"/>
+  <circle cx="16" cy="4" r="0.75" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.2"/>
+  <circle cx="15.75" cy="3.75" r="0.2" fill="#F0D080"/>
+</g>
+</svg>

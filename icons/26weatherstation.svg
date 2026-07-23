@@ -1,0 +1,83 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C9932F"/>
+    <stop offset="60%" stop-color="#8A6420"/>
+    <stop offset="100%" stop-color="#5C3F14"/>
+  </linearGradient>
+  <linearGradient id="rivet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6B4A18"/>
+    <stop offset="100%" stop-color="#4A3410"/>
+  </linearGradient>
+  <radialGradient id="patina" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#3B5240" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="discShade" cx="35%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="60%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#6B4A18"/>
+  </radialGradient>
+  <linearGradient id="panelGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3A6FA8"/>
+    <stop offset="100%" stop-color="#173352"/>
+  </linearGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <clipPath id="shieldClip"><rect x="9" y="11.5" width="14" height="8.5"/></clipPath>
+</defs>
+
+<g filter="url(#dropshadow)">
+
+  <!-- pole, cropped at the bottom of the canvas (pole-mounted, not floating) -->
+  <rect x="15" y="19.5" width="2" height="13" fill="url(#brass)" stroke="#4A3410" stroke-width="0.5"/>
+  <rect x="14" y="19.2" width="4" height="1" rx="0.4" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.3"/>
+
+  <!-- radiation shield stack -->
+  <g clip-path="url(#shieldClip)">
+    <ellipse cx="16" cy="12.4" rx="6.6" ry="1.6" fill="url(#discShade)" stroke="#4A3410" stroke-width="0.4"/>
+    <ellipse cx="16" cy="14.4" rx="6.9" ry="1.65" fill="url(#discShade)" stroke="#4A3410" stroke-width="0.4"/>
+    <ellipse cx="16" cy="16.4" rx="7.1" ry="1.7" fill="url(#discShade)" stroke="#4A3410" stroke-width="0.4"/>
+    <ellipse cx="16" cy="18.4" rx="7.3" ry="1.75" fill="url(#discShade)" stroke="#4A3410" stroke-width="0.4"/>
+  </g>
+  <ellipse cx="12.5" cy="17" rx="3" ry="2" fill="url(#patina)" clip-path="url(#shieldClip)"/>
+  <!-- center support column through the shield discs -->
+  <rect x="15.3" y="11.6" width="1.4" height="8" fill="url(#brassDark)" opacity="0.9"/>
+
+  <!-- rain gauge funnel, mounted to the side -->
+  <path d="M21.6,15.4 L26.2,14.6 L24.4,19.3 L22.6,19.1 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.4"/>
+  <ellipse cx="23.9" cy="14.9" rx="2.6" ry="0.55" fill="#2A1D08"/>
+  <rect x="23.2" y="19" width="1.4" height="2.4" rx="0.4" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.3"/>
+
+  <!-- small solar trickle-charger panel -->
+  <path d="M6.6,13.4 L11.6,12.3 L12.4,15.4 L7.2,16.4 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.4"/>
+  <path d="M7.3,13.9 L11.4,13 L11.9,14.9 L7.8,15.7 Z" fill="url(#panelGlass)" stroke="#0E2338" stroke-width="0.25"/>
+  <line x1="9.35" y1="13.4" x2="9.85" y2="15.3" stroke="#0E2338" stroke-width="0.2"/>
+
+  <!-- antenna -->
+  <line x1="20.4" y1="11.8" x2="20.4" y2="3.6" stroke="url(#brassDark)" stroke-width="0.55" stroke-linecap="round"/>
+  <circle cx="20.4" cy="3.4" r="0.55" fill="url(#brass)" stroke="#4A3410" stroke-width="0.2"/>
+
+  <!-- wind vane -->
+  <circle cx="16" cy="9.6" r="0.55" fill="url(#rivet)"/>
+  <line x1="10.8" y1="9.9" x2="16" y2="9.6" stroke="url(#brassDark)" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="10.6" cy="9.95" r="0.65" fill="url(#brass)" stroke="#4A3410" stroke-width="0.2"/>
+  <polygon points="16,9.6 22,8.9 22,10.5" fill="url(#brass)" stroke="#4A3410" stroke-width="0.3"/>
+
+  <!-- anemometer -->
+  <line x1="16.00" y1="6.70" x2="16.00" y2="2.40" stroke="url(#brassDark)" stroke-width="0.55" stroke-linecap="round"/>
+<line x1="16.00" y1="6.70" x2="19.72" y2="8.85" stroke="url(#brassDark)" stroke-width="0.55" stroke-linecap="round"/>
+<line x1="16.00" y1="6.70" x2="12.28" y2="8.85" stroke="url(#brassDark)" stroke-width="0.55" stroke-linecap="round"/>
+  <circle cx="16.00" cy="2.40" r="1.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.3"/><circle cx="16.00" cy="3.05" r="1.05" fill="#4A3410" opacity="0.55"/>
+<circle cx="19.72" cy="8.85" r="1.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.3"/><circle cx="19.16" cy="8.53" r="1.05" fill="#4A3410" opacity="0.55"/>
+<circle cx="12.28" cy="8.85" r="1.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.3"/><circle cx="12.84" cy="8.53" r="1.05" fill="#4A3410" opacity="0.55"/>
+  <circle cx="16" cy="6.7" r="0.9" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.2"/>
+  <circle cx="15.75" cy="6.45" r="0.22" fill="#F0D080"/>
+</g>
+</svg>

@@ -1,0 +1,101 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C9932F"/>
+    <stop offset="60%" stop-color="#8A6420"/>
+    <stop offset="100%" stop-color="#5C3F14"/>
+  </linearGradient>
+  <radialGradient id="patina" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#3B5240" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="lensGrey" cx="35%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#DDE7EF"/>
+    <stop offset="100%" stop-color="#8B9BA8"/>
+  </radialGradient>
+  <radialGradient id="lensGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8B9BA8" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#8B9BA8" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="rivet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6B4A18"/>
+    <stop offset="100%" stop-color="#4A3410"/>
+  </linearGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1"/>
+  </filter>
+  <clipPath id="bodyClip">
+    <rect x="3.2" y="11" width="25.6" height="16" rx="2.2"/>
+  </clipPath>
+</defs>
+
+<ellipse cx="16" cy="29.3" rx="11" ry="1.7" fill="#000000" opacity="0.28" filter="url(#blur1)"/>
+
+<g filter="url(#dropshadow)">
+
+  <!-- paper sheet emerging from top slot (drawn first, body covers its base) -->
+  <g>
+    <rect x="9" y="2.6" width="14" height="9.8" fill="#F3EEDD" stroke="#C9C2A8" stroke-width="0.25"/>
+    <polygon points="20.3,2.6 23,2.6 23,5.3" fill="#DCD5BC"/>
+    <line x1="10.3" y1="5" x2="19.5" y2="5" stroke="#B9B29A" stroke-width="0.4"/>
+    <line x1="10.3" y1="6.6" x2="21.5" y2="6.6" stroke="#B9B29A" stroke-width="0.4"/>
+    <line x1="10.3" y1="8.2" x2="18.2" y2="8.2" stroke="#B9B29A" stroke-width="0.4"/>
+    <line x1="10.3" y1="9.8" x2="20.4" y2="9.8" stroke="#B9B29A" stroke-width="0.4"/>
+  </g>
+
+  <!-- main brass body -->
+  <rect x="3.2" y="11" width="25.6" height="16" rx="2.2" fill="url(#brass)" stroke="#4A3410" stroke-width="0.6"/>
+
+  <!-- patina weathering -->
+  <ellipse cx="9" cy="22.5" rx="5.5" ry="4.2" fill="url(#patina)" clip-path="url(#bodyClip)"/>
+
+  <!-- top bevel highlight -->
+  <rect x="3.8" y="11.4" width="24.4" height="1" rx="0.5" fill="#FFFFFF" opacity="0.35"/>
+  <!-- bottom bevel shadow -->
+  <rect x="3.8" y="25.4" width="24.4" height="1.2" rx="0.5" fill="#000000" opacity="0.28"/>
+
+  <!-- paper output slot (recessed) -->
+  <rect x="6.5" y="10.4" width="19" height="1.9" rx="0.5" fill="#2A1D08"/>
+  <rect x="6.9" y="10.55" width="18.2" height="0.4" fill="#F3EEDD" opacity="0.9"/>
+
+  <!-- corner rivets -->
+  <g>
+    <circle cx="5.4" cy="13.1" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.25"/>
+    <circle cx="5.15" cy="12.85" r="0.22" fill="#F0D080"/>
+    <circle cx="26.6" cy="13.1" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.25"/>
+    <circle cx="26.35" cy="12.85" r="0.22" fill="#F0D080"/>
+    <circle cx="5.4" cy="24.9" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.25"/>
+    <circle cx="5.15" cy="24.65" r="0.22" fill="#F0D080"/>
+    <circle cx="26.6" cy="24.9" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.25"/>
+    <circle cx="26.35" cy="24.65" r="0.22" fill="#F0D080"/>
+  </g>
+
+  <!-- lower recessed control panel strip -->
+  <rect x="5.2" y="20.6" width="21.6" height="4.7" rx="1" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.35"/>
+
+  <!-- vent slats to the left of the panel -->
+  <g stroke="#4A3410" stroke-width="0.45" opacity="0.75">
+    <line x1="7" y1="21.4" x2="12.2" y2="21.4"/>
+    <line x1="7" y1="22.5" x2="12.2" y2="22.5"/>
+    <line x1="7" y1="23.6" x2="12.2" y2="23.6"/>
+    <line x1="7" y1="24.6" x2="12.2" y2="24.6"/>
+  </g>
+
+  <!-- status lens (neutral/generic) -->
+  <circle cx="23.4" cy="22.95" r="2.15" fill="url(#lensGlow)"/>
+  <circle cx="23.4" cy="22.95" r="1.5" fill="url(#lensGrey)" stroke="#5C3F14" stroke-width="0.4"/>
+  <circle cx="22.9" cy="22.5" r="0.42" fill="#FFFFFF" opacity="0.75"/>
+
+  <!-- small brass feet -->
+  <rect x="6" y="26.6" width="2.4" height="1.2" rx="0.4" fill="url(#brassDark)"/>
+  <rect x="23.6" y="26.6" width="2.4" height="1.2" rx="0.4" fill="url(#brassDark)"/>
+</g>
+</svg>

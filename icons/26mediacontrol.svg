@@ -1,0 +1,96 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C9932F"/>
+    <stop offset="60%" stop-color="#8A6420"/>
+    <stop offset="100%" stop-color="#5C3F14"/>
+  </linearGradient>
+  <radialGradient id="patina" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#3B5240" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="rivet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6B4A18"/>
+    <stop offset="100%" stop-color="#4A3410"/>
+  </linearGradient>
+  <radialGradient id="lensGrey" cx="35%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#DDE7EF"/>
+    <stop offset="100%" stop-color="#8B9BA8"/>
+  </radialGradient>
+  <radialGradient id="lensGreen" cx="35%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#B9F6CA"/>
+    <stop offset="55%" stop-color="#5FCB6E"/>
+    <stop offset="100%" stop-color="#276B31"/>
+  </radialGradient>
+  <radialGradient id="greenGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#5FCB6E" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#5FCB6E" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1"/>
+  </filter>
+  <clipPath id="plateClip">
+    <rect x="3" y="6" width="26" height="20" rx="3"/>
+  </clipPath>
+</defs>
+
+<ellipse cx="16" cy="29.3" rx="11" ry="1.7" fill="#000000" opacity="0.28" filter="url(#blur1)"/>
+
+<g filter="url(#dropshadow)">
+
+  <!-- brass control plate -->
+  <rect x="3" y="6" width="26" height="20" rx="3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.6"/>
+  <ellipse cx="9" cy="20" rx="6" ry="4.6" fill="url(#patina)" clip-path="url(#plateClip)"/>
+  <rect x="3.6" y="6.4" width="24.8" height="0.9" rx="0.4" fill="#FFFFFF" opacity="0.32"/>
+  <rect x="3.6" y="24.7" width="24.8" height="1" rx="0.4" fill="#000000" opacity="0.25"/>
+
+  <!-- corner rivets -->
+  <circle cx="5" cy="8.2" r="0.8" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.22"/>
+  <circle cx="4.78" cy="7.98" r="0.2" fill="#F0D080"/>
+  <circle cx="27" cy="8.2" r="0.8" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.22"/>
+  <circle cx="26.78" cy="7.98" r="0.2" fill="#F0D080"/>
+  <circle cx="5" cy="23.8" r="0.8" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.22"/>
+  <circle cx="4.78" cy="23.58" r="0.2" fill="#F0D080"/>
+  <circle cx="27" cy="23.8" r="0.8" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.22"/>
+  <circle cx="26.78" cy="23.58" r="0.2" fill="#F0D080"/>
+
+  <!-- previous-track button -->
+  <circle cx="9.4" cy="16" r="3.0" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.35"/>
+  <circle cx="9.4" cy="16" r="2.15" fill="url(#lensGrey)" stroke="#5C3F14" stroke-width="0.3"/>
+  <g fill="#3B2A0E">
+    <polygon points="9.9,14.3 8.2,16 9.9,17.7"/>
+    <polygon points="11.2,14.3 9.5,16 11.2,17.7"/>
+  </g>
+
+  <!-- play (control) button -->
+  <circle cx="16" cy="16" r="4.6" fill="url(#greenGlow)"/>
+  <circle cx="16" cy="16" r="4.0" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.4"/>
+  <circle cx="16" cy="16" r="3.1" fill="url(#lensGreen)" stroke="#1F5527" stroke-width="0.3"/>
+  <polygon points="14.7,13.9 18.2,16 14.7,18.1" fill="#123A17"/>
+  <circle cx="14.9" cy="14.3" r="0.5" fill="#FFFFFF" opacity="0.55"/>
+
+  <!-- next-track button -->
+  <circle cx="22.6" cy="16" r="3.0" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.35"/>
+  <circle cx="22.6" cy="16" r="2.15" fill="url(#lensGrey)" stroke="#5C3F14" stroke-width="0.3"/>
+  <g fill="#3B2A0E">
+    <polygon points="22.1,14.3 23.8,16 22.1,17.7"/>
+    <polygon points="20.8,14.3 22.5,16 20.8,17.7"/>
+  </g>
+
+  <!-- lower texture row: small function rivets -->
+  <g fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.25">
+    <rect x="6.5" y="20.6" width="3" height="2.4" rx="0.5"/>
+    <rect x="11" y="20.6" width="3" height="2.4" rx="0.5"/>
+    <rect x="18" y="20.6" width="3" height="2.4" rx="0.5"/>
+    <rect x="22.5" y="20.6" width="3" height="2.4" rx="0.5"/>
+  </g>
+</g>
+</svg>

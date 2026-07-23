@@ -1,0 +1,106 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C9932F"/>
+    <stop offset="60%" stop-color="#8A6420"/>
+    <stop offset="100%" stop-color="#5C3F14"/>
+  </linearGradient>
+  <linearGradient id="leatherBack" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#9A6B3C"/>
+    <stop offset="100%" stop-color="#5E3E1F"/>
+  </linearGradient>
+  <linearGradient id="leatherArm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7A5228"/>
+    <stop offset="100%" stop-color="#4A3018"/>
+  </linearGradient>
+  <linearGradient id="leatherSeat" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#B58348"/>
+    <stop offset="100%" stop-color="#6B4623"/>
+  </linearGradient>
+  <linearGradient id="leatherSkirt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#5E3E1F"/>
+    <stop offset="100%" stop-color="#3A2612"/>
+  </linearGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1"/>
+  </filter>
+</defs>
+
+<ellipse cx="16" cy="30" rx="12.5" ry="1.4" fill="#000000" opacity="0.25" filter="url(#blur1)"/>
+
+<g filter="url(#dropshadow)">
+
+  <!-- rolled arms -->
+  <path d="M4,26 L4,14 C4,11.5 6,10 8.5,10 L8.5,26 Z" fill="url(#leatherArm)" stroke="#2E1D0E" stroke-width="0.4"/>
+  <ellipse cx="6.3" cy="10.2" rx="2.5" ry="1.6" fill="url(#leatherArm)" stroke="#2E1D0E" stroke-width="0.4"/>
+  <path d="M28,26 L28,14 C28,11.5 26,10 23.5,10 L23.5,26 Z" fill="url(#leatherArm)" stroke="#2E1D0E" stroke-width="0.4"/>
+  <ellipse cx="25.7" cy="10.2" rx="2.5" ry="1.6" fill="url(#leatherArm)" stroke="#2E1D0E" stroke-width="0.4"/>
+  <circle cx="4.7" cy="13.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="4.7" cy="16.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="4.7" cy="19.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="4.7" cy="22.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+  <circle cx="27.3" cy="13.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="27.3" cy="16.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="27.3" cy="19.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="27.3" cy="22.5" r="0.3" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+
+  <!-- tufted backrest -->
+  <rect x="7.5" y="7.6" width="17" height="11.4" rx="3" fill="url(#leatherBack)" stroke="#2E1D0E" stroke-width="0.45"/>
+  <rect x="8.1" y="8.1" width="15.8" height="1" rx="0.4" fill="#FFFFFF" opacity="0.12"/>
+  <line x1="11.50" y1="9.00" x2="9.20" y2="11.60" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="11.50" y1="9.00" x2="13.75" y2="11.60" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="16.00" y1="9.00" x2="13.75" y2="11.60" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="16.00" y1="9.00" x2="18.25" y2="11.60" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="20.50" y1="9.00" x2="18.25" y2="11.60" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="20.50" y1="9.00" x2="22.80" y2="11.60" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="9.20" y1="11.60" x2="11.50" y2="14.20" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="13.75" y1="11.60" x2="11.50" y2="14.20" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="13.75" y1="11.60" x2="16.00" y2="14.20" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="18.25" y1="11.60" x2="16.00" y2="14.20" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="18.25" y1="11.60" x2="20.50" y2="14.20" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+<line x1="22.80" y1="11.60" x2="20.50" y2="14.20" stroke="#3F2814" stroke-width="0.18" opacity="0.55"/>
+  <circle cx="11.50" cy="9.00" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="16.00" cy="9.00" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="20.50" cy="9.00" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="9.20" cy="11.60" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="13.75" cy="11.60" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="18.25" cy="11.60" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="22.80" cy="11.60" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="11.50" cy="14.20" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="16.00" cy="14.20" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+<circle cx="20.50" cy="14.20" r="0.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.12"/>
+
+  <!-- seat cushion -->
+  <rect x="7.8" y="17.4" width="16.4" height="6.4" rx="1.8" fill="url(#leatherSeat)" stroke="#2E1D0E" stroke-width="0.45"/>
+  <path d="M9,18.3 C13,17.4 19,17.4 23,18.3" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="0.7"/>
+  <line x1="16" y1="17.6" x2="16" y2="23.5" stroke="#3F2814" stroke-width="0.2" opacity="0.5"/>
+
+  <!-- base skirt -->
+  <rect x="6.5" y="23.6" width="19" height="2.6" rx="0.6" fill="url(#leatherSkirt)" stroke="#231609" stroke-width="0.35"/>
+  <circle cx="7.20" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="9.10" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="11.00" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="12.90" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="14.80" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="16.70" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="18.60" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="20.50" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="22.40" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="24.30" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+<circle cx="26.20" cy="24.4" r="0.32" fill="url(#brass)" stroke="#4A3410" stroke-width="0.1"/>
+
+  <!-- turned brass feet -->
+  <rect x="8.2" y="26.1" width="1.6" height="2.6" rx="0.5" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.3"/>
+  <rect x="22.2" y="26.1" width="1.6" height="2.6" rx="0.5" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.3"/>
+  <circle cx="9" cy="28.9" r="0.9" fill="url(#brass)" stroke="#4A3410" stroke-width="0.25"/>
+  <circle cx="23" cy="28.9" r="0.9" fill="url(#brass)" stroke="#4A3410" stroke-width="0.25"/>
+</g>
+</svg>

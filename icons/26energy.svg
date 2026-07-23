@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="rivet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6B4A18"/>
+    <stop offset="100%" stop-color="#4A3410"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFEB8A"/>
+    <stop offset="55%" stop-color="#F0C419"/>
+    <stop offset="100%" stop-color="#B8860B"/>
+  </linearGradient>
+  <linearGradient id="mark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#2A2213"/>
+    <stop offset="100%" stop-color="#0A0805"/>
+  </linearGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1"/>
+  </filter>
+</defs>
+
+<ellipse cx="16" cy="30" rx="10.5" ry="1.4" fill="#000000" opacity="0.28" filter="url(#blur1)"/>
+
+<g filter="url(#dropshadow)">
+  <!-- brass frame -->
+  <polygon points="16,4 4,28 28,28" fill="url(#brass)" stroke="#4A3410" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <!-- inset yellow warning panel -->
+  <polygon points="16,7.52 6.64,26.24 25.36,26.24" fill="url(#panel)" stroke="#8A6A08" stroke-width="0.6" stroke-linejoin="round"/>
+  <path d="M9,23.4 L15,10.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.1" stroke-linecap="round"/>
+
+  <!-- corner rivets -->
+  <circle cx="16" cy="5.3" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.2"/>
+  <circle cx="15.75" cy="5.05" r="0.2" fill="#F0D080"/>
+  <circle cx="5.9" cy="26.9" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.2"/>
+  <circle cx="5.65" cy="26.65" r="0.2" fill="#F0D080"/>
+  <circle cx="26.1" cy="26.9" r="0.85" fill="url(#rivet)" stroke="#4A3410" stroke-width="0.2"/>
+  <circle cx="25.85" cy="26.65" r="0.2" fill="#F0D080"/>
+
+  <!-- lightning bolt -->
+  <polygon points="17,12 12.5,18 16,18 14,25 20,20 16.5,20"
+            fill="url(#mark)" stroke="#000000" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="17,12.4 13.4,17.6 15.6,17.6" fill="#FFFFFF" opacity="0.12"/>
+</g>
+</svg>

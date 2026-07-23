@@ -1,0 +1,79 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#F0D080"/>
+    <stop offset="55%" stop-color="#C9932F"/>
+    <stop offset="100%" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#C9932F"/>
+    <stop offset="60%" stop-color="#8A6420"/>
+    <stop offset="100%" stop-color="#5C3F14"/>
+  </linearGradient>
+  <linearGradient id="rivet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6B4A18"/>
+    <stop offset="100%" stop-color="#4A3410"/>
+  </linearGradient>
+  <radialGradient id="patina" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#3B5240" stop-opacity="0.26"/>
+    <stop offset="100%" stop-color="#3B5240" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="panelGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3A6FA8"/>
+    <stop offset="100%" stop-color="#173352"/>
+  </linearGradient>
+  <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0.4" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1"/>
+  </filter>
+<radialGradient id="statusGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#5FCB6E" stop-opacity="0.65"/>
+          <stop offset="100%" stop-color="#5FCB6E" stop-opacity="0"/>
+        </radialGradient>
+  <clipPath id="panelClip"><path d="M3.2,22.6 L4.8,13.6 L14.6,13 L13.6,22.2 Z"/></clipPath>
+</defs>
+
+<ellipse cx="16" cy="29.6" rx="12" ry="1.5" fill="#000000" opacity="0.28" filter="url(#blur1)"/>
+
+<g filter="url(#dropshadow)">
+
+  <!-- grid power lines, exiting the frame -->
+  <g stroke="#5C3F14" stroke-width="0.6" fill="none" opacity="0.8">
+    <path d="M20.6,9.6 C24,7 28,6.4 31.5,4.4"/>
+    <path d="M25.4,9.6 C27.6,7.6 29.6,7 31.5,7.2"/>
+  </g>
+
+  <!-- utility pole -->
+  <rect x="22.2" y="8.6" width="1.6" height="20.4" fill="url(#brass)" stroke="#4A3410" stroke-width="0.4"/>
+  <rect x="19.4" y="9" width="9" height="1.15" rx="0.4" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.3"/>
+  <rect x="20.1" y="7.7" width="1.1" height="1.5" rx="0.35" fill="url(#brass)" stroke="#4A3410" stroke-width="0.25"/>
+  <rect x="25.8" y="7.7" width="1.1" height="1.5" rx="0.35" fill="url(#brass)" stroke="#4A3410" stroke-width="0.25"/>
+
+  <!-- solar panel (tilted) -->
+  <path d="M3.2,22.6 L4.8,13.6 L14.6,13 L13.6,22.2 Z" fill="url(#brass)" stroke="#4A3410" stroke-width="0.6"/>
+  <ellipse cx="6" cy="19" rx="3.4" ry="3" fill="url(#patina)" clip-path="url(#panelClip)"/>
+  <path d="M5.6,20.7 L6.5,14.6 L12.7,14.2 L12,20.3 Z" fill="url(#panelGlass)" stroke="#0E2338" stroke-width="0.35"/>
+  <g stroke="#0E2338" stroke-width="0.3" opacity="0.85">
+    <path d="M8.5,14.4 L7.9,20.5"/>
+    <path d="M10.6,14.3 L10,20.4"/>
+    <path d="M6.1,17.4 L12.4,17.1"/>
+  </g>
+
+  <!-- junction box -->
+  <rect x="15.5" y="23.5" width="3.4" height="3" rx="0.5" fill="url(#brassDark)" stroke="#4A3410" stroke-width="0.4"/>
+  <rect x="15.9" y="23.8" width="2.6" height="0.6" fill="#FFFFFF" opacity="0.2"/>
+
+  <!-- cables -->
+  <path d="M12.2,21.3 C13.6,22.4 14.6,22.9 16,24.3" fill="none" stroke="url(#brassDark)" stroke-width="1" stroke-linecap="round"/>
+  <path d="M18.9,25.4 L23,27" fill="none" stroke="url(#brassDark)" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- status lens -->
+  <circle cx="17.2" cy="25" r="2.4" fill="url(#statusGlow)"/>
+  <circle cx="17.2" cy="25" r="1.15" fill="url(#brass)" stroke="#4A3410" stroke-width="0.25"/>
+  <circle cx="17.2" cy="25" r="0.78" fill="#B9F6CA"/>
+  <circle cx="17.2" cy="25" r="0.78" fill="none" stroke="#3D9140" stroke-width="0.25"/>
+  <circle cx="16.95" cy="24.75" r="0.2" fill="#FFFFFF" opacity="0.8"/>
+</g>
+</svg>
