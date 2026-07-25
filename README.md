@@ -620,18 +620,6 @@ Every file is prefixed with **`26`** so the set doesn't collide with openHAB's b
 |---|---|---|
 | [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26calendar.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26calendar.svg) | Generic | `26calendar.svg` |
 
-## Usage
-
-Reference these icons in openHAB item definitions by filename (without extension). For dynamic icons, openHAB automatically appends the item's state to the icon name, e.g.:
-
-```
-Switch  KitchenLight  "Kitchen Light"  <26light>
-Dimmer  LivingRoomDimmer  "Dimmer"  <26dimmer>
-Rollershutter  BedroomShutter  "Shutter"  <26rollershutter>
-```
-
-Make sure the item's state maps to one of the provided step values (`0`, `10`, `20` … `100`, or `on`/`off`, `open`/`closed`, etc.) so the correct variant is picked up automatically.
-
 ## License
 
 These icons were custom-designed for this project. Add your preferred license here before publishing (e.g. MIT, CC-BY-4.0).
