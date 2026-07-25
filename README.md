@@ -1,4 +1,4 @@
-# openHAB "Steampunk" Icon Set
+# Home Automation "Steampunk" Icon Set
 
 All icons are **32×32 px** SVGs.
 
