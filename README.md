@@ -1,6 +1,6 @@
 # openHAB "Steampunk" Icon Set
 
-A custom openHAB icon set styled **"moderate steampunk"** — warm brass/copper metal, riveted panels, glowing colored glass/lenses, and subtle patina/weathering, sitting somewhere between flat and 3D. All icons are **32×32 px** SVGs.
+All icons are **32×32 px** SVGs.
 
 > Icon source files live in [`/icons`](https://github.com/kjknauss/HomeAutomation/blob/main) in this repository. The previews below are loaded directly from GitHub via `raw.githubusercontent.com`.
 
