@@ -1,6 +1,5 @@
 # Home Automation "Steampunk" Icon Set
 
-All icons are **32×32 px** SVGs.
 
 > Icon source files live in [`/icons`](https://github.com/kjknauss/HomeAutomation/blob/main) in this repository. The previews below are loaded directly from GitHub via `raw.githubusercontent.com`.
 
