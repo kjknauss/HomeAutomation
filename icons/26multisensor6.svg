@@ -1,0 +1,65 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F0D080"/>
+    <stop offset="0.55" stop-color="#C9932F"/>
+    <stop offset="1" stop-color="#7A5518"/>
+  </linearGradient>
+  <radialGradient id="lensGlow" cx="0.35" cy="0.35" r="0.8">
+    <stop offset="0" stop-color="#FFFBEA"/>
+    <stop offset="0.45" stop-color="#F0CE84"/>
+    <stop offset="1" stop-color="#8A6420"/>
+  </radialGradient>
+  <radialGradient id="ledGreen" cx="0.35" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#E7FFEA"/>
+    <stop offset="0.4" stop-color="#5FCB6E"/>
+    <stop offset="1" stop-color="#276B31"/>
+  </radialGradient>
+  <linearGradient id="luxAmber" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFEB8A"/>
+    <stop offset="1" stop-color="#B5790F"/>
+  </linearGradient>
+  <radialGradient id="shadowFade" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#000000" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0.4" dy="0.6" stdDeviation="0.7" flood-color="#000000" flood-opacity="0.4"/>
+  </filter>
+</defs>
+
+<!-- ground shadow (standalone object resting on a surface) -->
+<ellipse cx="16" cy="27" rx="8.5" ry="1.6" fill="url(#shadowFade)"/>
+
+<g filter="url(#ds)">
+
+  <!-- ===== Main body (compact cuboid, enlarged) ===== -->
+  <rect x="5" y="4" width="22" height="20" rx="3.2" ry="3.2"
+        fill="url(#brass)" stroke="#5C3F14" stroke-width="0.8"/>
+  <!-- top highlight sheen -->
+  <rect x="6.0" y="5.1" width="19.9" height="4.3" rx="1.9"
+        fill="#FFFFFF" opacity="0.22"/>
+
+  <!-- corner rivets -->
+  <circle cx="7.8" cy="6.9" r="1.05" fill="#5C3F14" stroke="#4A3410" stroke-width="0.26"/>
+  <circle cx="7.5" cy="6.6" r="0.3" fill="#F0D080"/>
+  <circle cx="24.2" cy="21.1" r="1.05" fill="#5C3F14" stroke="#4A3410" stroke-width="0.26"/>
+  <circle cx="23.9" cy="20.8" r="0.3" fill="#F0D080"/>
+
+  <!-- status LED (top-left) -->
+  <circle cx="8.9" cy="8.5" r="1.35" fill="url(#ledGreen)" stroke="#123A1A" stroke-width="0.3"/>
+
+  <!-- lux/light sensor window (top-right) -->
+  <rect x="20.7" y="6.8" width="4.0" height="3.0" rx="0.6"
+        fill="url(#luxAmber)" stroke="#6B4A0A" stroke-width="0.3"/>
+
+  <!-- ===== PIR fresnel lens (dominant front element) ===== -->
+  <circle cx="16" cy="16.4" r="7.5" fill="url(#brass)" stroke="#5C3F14" stroke-width="0.75"/>
+  <circle cx="16" cy="16.4" r="6.0" fill="url(#lensGlow)" stroke="#8A6420" stroke-width="0.35"/>
+  <!-- concentric fresnel grooves -->
+  <circle cx="16" cy="16.4" r="4.5" fill="none" stroke="#B5872F" stroke-width="0.4" opacity="0.65"/>
+  <circle cx="16" cy="16.4" r="3.1" fill="none" stroke="#B5872F" stroke-width="0.4" opacity="0.65"/>
+  <circle cx="16" cy="16.4" r="1.55" fill="#8A6420" opacity="0.55"/>
+
+</g>
+</svg>

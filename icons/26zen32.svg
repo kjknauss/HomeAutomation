@@ -1,0 +1,102 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F0D080"/>
+    <stop offset="0.55" stop-color="#C9932F"/>
+    <stop offset="1" stop-color="#7A5518"/>
+  </linearGradient>
+  <linearGradient id="brassPaddle" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F5DC96"/>
+    <stop offset="0.5" stop-color="#D6A544"/>
+    <stop offset="1" stop-color="#8A6420"/>
+  </linearGradient>
+  <radialGradient id="ledRed" cx="0.35" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#FFE3E0"/>
+    <stop offset="0.4" stop-color="#E5695E"/>
+    <stop offset="1" stop-color="#8C2A22"/>
+  </radialGradient>
+  <radialGradient id="ledAmber" cx="0.35" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#FFEB8A"/>
+    <stop offset="0.4" stop-color="#F0A623"/>
+    <stop offset="1" stop-color="#95600E"/>
+  </radialGradient>
+  <radialGradient id="ledGreen" cx="0.35" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#E7FFEA"/>
+    <stop offset="0.4" stop-color="#5FCB6E"/>
+    <stop offset="1" stop-color="#276B31"/>
+  </radialGradient>
+  <radialGradient id="ledBlue" cx="0.35" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#BFE6FF"/>
+    <stop offset="0.4" stop-color="#3E86D6"/>
+    <stop offset="1" stop-color="#123A66"/>
+  </radialGradient>
+  <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0.5" dy="0.8" stdDeviation="0.8" flood-color="#000000" flood-opacity="0.4"/>
+  </filter>
+</defs>
+
+<g filter="url(#ds)">
+
+  <!-- ===== Outer wall plate ===== -->
+  <rect x="5" y="1" width="22" height="30" rx="3" ry="3"
+        fill="url(#brass)" stroke="#5C3F14" stroke-width="0.7"/>
+
+  <!-- corner rivets -->
+  <circle cx="7.6" cy="3.6" r="1" fill="#5C3F14" stroke="#4A3410" stroke-width="0.28"/>
+  <circle cx="7.3" cy="3.3" r="0.3" fill="#F0D080"/>
+  <circle cx="24.4" cy="3.6" r="1" fill="#5C3F14" stroke="#4A3410" stroke-width="0.28"/>
+  <circle cx="24.1" cy="3.3" r="0.3" fill="#F0D080"/>
+  <circle cx="7.6" cy="28.4" r="1" fill="#5C3F14" stroke="#4A3410" stroke-width="0.28"/>
+  <circle cx="7.3" cy="28.1" r="0.3" fill="#F0D080"/>
+  <circle cx="24.4" cy="28.4" r="1" fill="#5C3F14" stroke="#4A3410" stroke-width="0.28"/>
+  <circle cx="24.1" cy="28.1" r="0.3" fill="#F0D080"/>
+
+  <!-- ===== Button 5: main Decora-style paddle (relay on/off) ===== -->
+  <rect x="8.4" y="3.6" width="15.2" height="13.4" rx="2.1" ry="2.1"
+        fill="url(#brassPaddle)" stroke="#5C3F14" stroke-width="0.6"/>
+  <!-- glass sheen highlight, upper paddle -->
+  <rect x="9.4" y="4.5" width="13.2" height="4.4" rx="1.6"
+        fill="#FFFFFF" opacity="0.28"/>
+  <!-- rocker split line near the bottom of the paddle (solid color: straight horizontal line) -->
+  <rect x="9.4" y="14.1" width="13.2" height="0.55"
+        fill="#5C3F14" opacity="0.85"/>
+
+  <!-- ===== Buttons 1-4: 2x2 scene-button grid below the paddle ===== -->
+  <!-- Button 1 (top-left, red LED) -->
+  <rect x="8.4" y="18.4" width="7" height="5" rx="1.3" ry="1.3"
+        fill="url(#brassPaddle)" stroke="#5C3F14" stroke-width="0.55"/>
+  <rect x="9.0" y="18.95" width="5.8" height="1.6" rx="0.8"
+        fill="#FFFFFF" opacity="0.28"/>
+  <rect x="9.0" y="22.55" width="5.8" height="0.55"
+        fill="#000000" opacity="0.18"/>
+  <circle cx="11.9" cy="20.1" r="0.85" fill="url(#ledRed)" stroke="#5A1F19" stroke-width="0.22"/>
+
+  <!-- Button 2 (top-right, amber LED) -->
+  <rect x="16.6" y="18.4" width="7" height="5" rx="1.3" ry="1.3"
+        fill="url(#brassPaddle)" stroke="#5C3F14" stroke-width="0.55"/>
+  <rect x="17.2" y="18.95" width="5.8" height="1.6" rx="0.8"
+        fill="#FFFFFF" opacity="0.28"/>
+  <rect x="17.2" y="22.55" width="5.8" height="0.55"
+        fill="#000000" opacity="0.18"/>
+  <circle cx="20.1" cy="20.1" r="0.85" fill="url(#ledAmber)" stroke="#5C3B09" stroke-width="0.22"/>
+
+  <!-- Button 3 (bottom-left, green LED) -->
+  <rect x="8.4" y="24.5" width="7" height="5" rx="1.3" ry="1.3"
+        fill="url(#brassPaddle)" stroke="#5C3F14" stroke-width="0.55"/>
+  <rect x="9.0" y="25.05" width="5.8" height="1.6" rx="0.8"
+        fill="#FFFFFF" opacity="0.28"/>
+  <rect x="9.0" y="28.65" width="5.8" height="0.55"
+        fill="#000000" opacity="0.18"/>
+  <circle cx="11.9" cy="26.2" r="0.85" fill="url(#ledGreen)" stroke="#1B4620" stroke-width="0.22"/>
+
+  <!-- Button 4 (bottom-right, blue LED) -->
+  <rect x="16.6" y="24.5" width="7" height="5" rx="1.3" ry="1.3"
+        fill="url(#brassPaddle)" stroke="#5C3F14" stroke-width="0.55"/>
+  <rect x="17.2" y="25.05" width="5.8" height="1.6" rx="0.8"
+        fill="#FFFFFF" opacity="0.28"/>
+  <rect x="17.2" y="28.65" width="5.8" height="0.55"
+        fill="#000000" opacity="0.18"/>
+  <circle cx="20.1" cy="26.2" r="0.85" fill="url(#ledBlue)" stroke="#0C2740" stroke-width="0.22"/>
+
+</g>
+</svg>
