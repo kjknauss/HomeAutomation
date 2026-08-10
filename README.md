@@ -444,6 +444,34 @@ Every file is prefixed with **`26`** so the set doesn't collide with openHAB's b
 |---|---|---|
 | [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26zen37.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26zen37.svg) | Generic | `26zen37.svg` |
 
+### Z-Wave Devices & Sensors
+
+**Aeotec MultiSensor 6** (`26multisensor6`)
+
+| Preview | Label | Filename |
+|---|---|---|
+| [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26multisensor6.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26multisensor6.svg) | Generic | `26multisensor6.svg` |
+
+**Zooz ZEN32 Scene Controller** (`26zen32`)
+
+| Preview | Label | Filename |
+|---|---|---|
+| [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26zen32.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26zen32.svg) | Generic | `26zen32.svg` |
+
+**Open/Close XS Sensor ZSE41** (`26zse41`)
+
+| Preview | Label | Filename |
+|---|---|---|
+| [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26zse41.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26zse41.svg) | Generic | `26zse41.svg` |
+| [![Open](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26zse41-open.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26zse41-open.svg) | Open | `26zse41-open.svg` |
+| [![Closed](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26zse41-closed.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26zse41-closed.svg) | Closed | `26zse41-closed.svg` |
+
+**Temperature & Humidity Sensor ZWA039** (`26zwa039`)
+
+| Preview | Label | Filename |
+|---|---|---|
+| [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26zwa039.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26zwa039.svg) | Generic | `26zwa039.svg` |
+
 ### Appliances
 
 **Washing Machine** (`26washingmachine`)
@@ -618,6 +646,16 @@ Every file is prefixed with **`26`** so the set doesn't collide with openHAB's b
 | Preview | Label | Filename |
 |---|---|---|
 | [![Generic](https://raw.githubusercontent.com/kjknauss/HomeAutomation/main/icons/26calendar.svg)](https://github.com/kjknauss/HomeAutomation/blob/main/icons/26calendar.svg) | Generic | `26calendar.svg` |
+
+## Usage
+
+Reference these icons in openHAB item definitions by filename (without extension). For dynamic icons, openHAB automatically appends the item's state to the icon name, e.g.:
+
+```
+Switch  KitchenLight  "Kitchen Light"  <26light>
+Dimmer  LivingRoomDimmer  "Dimmer"  <26dimmer>
+Rollershutter  BedroomShutter  "Shutter"  <26rollershutter>
+```
 
 ## License
 
